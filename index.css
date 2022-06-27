@@ -11,6 +11,19 @@ body {
     flex-wrap: wrap;
 }
 
+div {
+    flex-basis: 100%;
+}
+
+@media (min-width: 600px) {
+    main {
+      flex-wrap: nowrap;
+    }
+
+    div {
+      flex-basis: 33%;
+    }
+    
 .container {
     display: flex;
     justify-content: space-around;
