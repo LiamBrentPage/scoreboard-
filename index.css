@@ -1,0 +1,92 @@
+@font-face {
+    font-family: Cursed Timer ULiL;
+    src:url(CursedTimerULiL.ttf)
+}
+
+body {
+    margin: 0;
+    background-image: url("stranger.jpg");
+    background-size: cover;
+    flex-wrap: wrap;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+h3 {
+    width: 149px;
+    margin-left: 85px;
+    margin-top: 68px;
+    font-family: 'Verdana';
+    color: #0d1b2a;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.box {
+    width: 155px;
+    height: 120px;
+    margin-left: 82px;
+    margin-top: 21px;
+    background-color: #080001;
+    border-radius: 10px;
+}
+
+.num1 {
+    width: 117px;
+    margin-left: 18px;
+    margin-top: 21px;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    text-align: center;
+    color: #F94F6D;
+}
+
+.num2 {
+    width: 117px;
+    margin-left: 18px;
+    margin-top: 21px;
+    font-family: 'Cursed Timer ULiL';
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 127px;
+    text-align: center;
+    color: #F94F6D;
+}
+
+.btn {
+    margin-left: 82px;
+    margin-top: 26px;
+}
+
+button {
+    border: 2px solid #1d3557;
+    border-radius: 5px;
+    width: 45px;
+    height: 45px;
+    background-color: transparent;
+    color: #1d3557;
+    font-family: 'Cursed Timer ULiL';
+}
+
+#reset {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border:none;
+    width: 90px;
+    height: 25px;
+    flex-wrap: wrap;
+    border: 1px solid #1d3557;
+}
