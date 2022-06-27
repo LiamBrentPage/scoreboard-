@@ -18,6 +18,14 @@ body {
     
 }
 
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: #0d1b2a;
+    text-decoration: underline;
+    text-shadow: 5px 0px white;
+}
+
 h3 {
     width: 149px;
     margin-left: 85px;
