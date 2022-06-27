@@ -9,15 +9,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     flex-wrap: wrap;
-    flex-basis: 100%;
 }
-
-@media (min-width: 600px) {
-    body {
-      flex-wrap: nowrap;
-        flex-basis: 33%;
-    }
-
 
 .container {
     display: flex;
