@@ -12,7 +12,7 @@ body {
 }
 
  @media only screen and (min-width: 600px) {
-    body {
+    main {
       flex-wrap: nowrap;
       flex-basis: 33%;
     }
