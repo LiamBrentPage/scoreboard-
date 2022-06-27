@@ -16,7 +16,7 @@ div {
 }
 
 @media (min-width: 600px) {
-    main {
+    body {
       flex-wrap: nowrap;
     }
 
