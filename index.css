@@ -9,21 +9,16 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     flex-wrap: wrap;
-}
-
-div {
     flex-basis: 100%;
 }
 
 @media (min-width: 600px) {
     body {
       flex-wrap: nowrap;
+        flex-basis: 33%;
     }
 
-    div {
-      flex-basis: 33%;
-    }
-    
+
 .container {
     display: flex;
     justify-content: space-around;
